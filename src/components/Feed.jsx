@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import { Box, Stack } from "@mui/system";
 import { useState, useEffect } from "react";
 import { Sidebar, Videos } from "./";
-import { fetchFromAPI } from "../utils/fetchFromAPI.jsx";
+import { fetchFromAPI } from "../utils/fetchFromAPI.js";
 
 const Feed = () => {
   const [selectedCateogry, SetselectedCateogry] = useState("New");
