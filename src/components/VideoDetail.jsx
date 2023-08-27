@@ -1,7 +1,7 @@
 import { Box, Stack } from "@mui/system";
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { fetchFromAPI } from "../utils/fetchFromapi";
+import { fetchFromAPI } from "../utils/fetchFromAPI";
 import ReactPlayer from "react-player";
 import { Typography } from "@mui/material";
 import { CheckCircle } from "@mui/icons-material";
